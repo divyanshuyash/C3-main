@@ -13,9 +13,9 @@ import { cn } from "@/lib/utils";
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const credentials = [
-  "8+ Years Experience",
-  "Digital Coach of the Year 2021",
-  "2 TEDx Circle Leader",
+  "10+ Years Experience",
+  "Business Consultant of the Year 2023",
+  "2x TED Circle Leader",
 ];
 
 const caseStudies = [
@@ -30,7 +30,7 @@ const caseStudies = [
     description: "Built authority and converted expertise into high-ticket demand."
   },
   {
-    name: "Jharna Jagtiyani",
+    name: "Jharna Jagtiani",
     result: "Multiple consulting opportunities",
     description: "Created a pipeline of aligned opportunities instead of waiting."
   }
@@ -99,11 +99,11 @@ export function Mentor() {
               className="relative mx-auto h-[420px] w-full max-w-[320px] overflow-hidden rounded-[28px] border border-orange/25 shadow-[0_0_80px_rgba(197,160,89,0.18),0_0_160px_rgba(197,160,89,0.06)] lg:mx-0 lg:h-[460px] lg:max-w-[340px] xl:max-w-[360px] image-card"
             >
               <Image
-                src="/c3/photos/IMG_7058.jpg"
-                alt="Shobhit Singhal portrait illustration"
+                src="/c3/photos/mentor-fbr-2.jpg"
+                alt="Shobhit Singhal"
                 fill
                 sizes="(max-width: 1024px) 320px, 360px"
-                className="object-cover object-center"
+                className="object-cover object-top"
               />
             </div>
           </div>
@@ -132,37 +132,40 @@ export function Mentor() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               {credentials.map((credential, index) => (
-                  <motion.div
-                    key={credential}
-                    initial={reducedMotion ? false : { opacity: 0, y: 16 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.3 }}
-                    transition={{
-                      duration: reducedMotion ? 0 : 0.45,
-                      delay: reducedMotion ? 0 : index * 0.06
-                    }}
-                    className="rounded-full border border-orange/35 bg-card/75 px-4 py-2 text-[13px] font-semibold tracking-[0.14em] text-white"
-                  >
-                    {typeof credential === "string" && credential.includes("TEDx") ? (
-                      <>
-                        <span className="uppercase">
-                          {credential.split("TEDx")[0]}
-                          TED
-                        </span>
-                        x
-                        <span className="uppercase">{credential.split("TEDx")[1]}</span>
-                      </>
-                    ) : (
-                      <span className="uppercase">{credential}</span>
-                    )}
-                  </motion.div>
-                ))}
+                <motion.div
+                  key={credential}
+                  initial={reducedMotion ? false : { opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{
+                    duration: reducedMotion ? 0 : 0.45,
+                    delay: reducedMotion ? 0 : index * 0.06
+                  }}
+                  className="rounded-full border border-orange/35 bg-card/75 px-4 py-2 text-[13px] font-semibold tracking-[0.14em] text-white"
+                >
+                  {typeof credential === "string" && credential.includes("2x") ? (
+                    <>
+                      <span className="uppercase">{credential.split("2x")[0]}2</span>
+                      <span className="text-[0.65em] lowercase">x</span>
+                      <span className="uppercase">{credential.split("2x")[1]}</span>
+                    </>
+                  ) : typeof credential === "string" && credential.includes("TEDx") ? (
+                    <>
+                      <span className="uppercase">{credential.split("TEDx")[0]}TED</span>
+                      <span className="text-[0.65em] lowercase">x</span>
+                      <span className="uppercase">{credential.split("TEDx")[1]}</span>
+                    </>
+                  ) : (
+                    <span className="uppercase">{credential}</span>
+                  )}
+                </motion.div>
+              ))}
             </div>
 
             <div ref={counterRef} className="mt-10 grid gap-4 sm:grid-cols-3">
               <StatCard
                 active={countersVisible}
-                label="Student Revenue"
+                label="Worth Businesses Created"
                 prefix="₹"
                 value={1}
                 suffix="Crore+"

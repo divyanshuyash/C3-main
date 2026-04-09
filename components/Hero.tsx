@@ -11,8 +11,8 @@ gsap.registerPlugin(useGSAP);
 /* ── stat counters ── */
 const stats = [
   { value: "100,000+", label: "Professionals Trained" },
-  { value: "₹1Cr+", label: "Students Earning" },
-  { value: "8+ Yrs", label: "Experience" },
+  { value: "₹1Cr+", label: "Worth Businesses Created" },
+  { value: "10+ Yrs", label: "Experience" },
   { value: "1000+", label: "Consultants Created" },
 ];
 
@@ -266,7 +266,7 @@ export function Hero() {
                 className="mx-auto mt-5 max-w-[46ch] text-sm leading-relaxed text-white/55 md:mx-0 md:mt-6 md:text-base"
               >
                 Learn the exact consulting framework that 1000+ professionals have used
-                to build <span className="font-semibold text-white/80">₹1 Crore+</span> independent consulting businesses — in just 3 days.
+                to build independent consulting businesses worth <span className="font-semibold text-white/80">₹1 Crore+</span> — in just 3 days.
               </motion.p>
 
               {/* CTA row */}
@@ -289,7 +289,7 @@ export function Hero() {
                 >
                   Explore Curriculum
                   <svg width="14" height="14" viewBox="0 0 16 16" fill="none" className="opacity-60">
-                    <path d="M8 3v10M3 8l5 5 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M8 3v10M3 8l5 5 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </motion.a>
               </motion.div>
@@ -349,19 +349,19 @@ export function Hero() {
               <motion.div
                 animate={reducedMotion ? {} : { y: [0, -10, 0] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                className="relative z-10"
+                className="relative z-10 -mb-[12%] md:-mb-[15%]"
               >
                 <div
-                  className="relative"
+                  className="relative overflow-hidden w-[300px] h-[280px] sm:w-[360px] sm:h-[340px] md:w-[440px] md:h-[400px] lg:w-[500px] lg:h-[440px]"
                   style={{
-                    WebkitMaskImage: "linear-gradient(to bottom, black 0%, black 75%, transparent 100%)",
-                    maskImage: "linear-gradient(to bottom, black 0%, black 75%, transparent 100%)",
+                    WebkitMaskImage: "linear-gradient(to bottom, black 0%, black 60%, transparent 95%, transparent 100%)",
+                    maskImage: "linear-gradient(to bottom, black 0%, black 60%, transparent 95%, transparent 100%)",
                   }}
                 >
                   <img
                     src="/hero-portrait-new.png"
                     alt="Shobhit Singhal — The Transformer"
-                    className="h-auto w-[240px] max-w-full object-contain object-bottom sm:w-[280px] md:w-[340px] lg:w-[400px]"
+                    className="h-full w-full object-cover object-[center_10%]"
                     style={{
                       filter: "drop-shadow(0 20px 60px rgba(197,160,89,0.15)) drop-shadow(0 0 40px rgba(197,160,89,0.1))",
                     }}
@@ -384,9 +384,9 @@ export function Hero() {
                 >
                   <div className="rounded-xl border border-orange/20 bg-card/80 px-2 py-2 shadow-[0_12px_40px_rgba(0,0,0,0.4)] backdrop-blur-xl md:bg-card/90 md:px-4 md:py-3">
                     <p className="font-display text-[16px] leading-none tracking-[0.04em] text-orange md:text-[22px]">
-                      <span className="uppercase">2 TED</span>x
+                      <span className="uppercase">2<span className="text-[0.65em] lowercase">x</span> TED</span>
                     </p>
-                    <p className="mt-1 text-[8px] font-semibold uppercase tracking-[0.18em] text-white/50 md:text-[10px]">Speaker</p>
+                    <p className="mt-1 text-[8px] font-semibold uppercase tracking-[0.18em] text-white/50 md:text-[10px]">Circle Leader</p>
                   </div>
                 </motion.div>
               </motion.div>
@@ -402,8 +402,8 @@ export function Hero() {
                   transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
                 >
                   <div className="rounded-xl border border-orange/20 bg-card/80 px-2 py-2 shadow-[0_12px_40px_rgba(0,0,0,0.4)] backdrop-blur-xl md:bg-card/90 md:px-4 md:py-3">
-                    <p className="font-display text-[16px] uppercase leading-none tracking-[0.04em] text-orange md:text-[22px]">Digital Coach</p>
-                    <p className="mt-1 text-[8px] font-semibold uppercase tracking-[0.18em] text-white/50 md:text-[10px]">of the Year 2021</p>
+                    <p className="font-display text-[16px] uppercase leading-none tracking-[0.04em] text-orange md:text-[22px]">business consultant</p>
+                    <p className="mt-1 text-[8px] font-semibold uppercase tracking-[0.18em] text-white/50 md:text-[10px]">of the Year 2023</p>
                   </div>
                 </motion.div>
               </motion.div>

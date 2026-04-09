@@ -40,8 +40,13 @@ export function Bonuses() {
       <div className="c3-container">
         <div className="mx-auto max-w-[980px] text-center">
           <p className="section-label">Bonuses</p>
-          <h2 className="mt-6 font-display text-[48px] uppercase leading-[0.94] tracking-[0.05em] md:text-[64px]">
-            <span className="gradient-text">ENROLL FOR ₹999 · GET ₹50,000+ IN BONUSES</span>
+          <h2 className="mt-6 font-display uppercase tracking-[0.05em]">
+            <span className="block text-[34px] leading-tight text-white md:text-[46px]">
+              ENROLL FOR ₹999
+            </span>
+            <span className="mt-1 block text-[42px] leading-[0.94] gradient-text md:mt-2 md:text-[64px]">
+              GET ₹50,000+ IN BONUSES
+            </span>
           </h2>
         </div>
 
