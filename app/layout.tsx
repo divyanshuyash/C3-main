@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "C3 - Crore Club Consultant Bootcamp",
     description:
-      "Register for the C3 Crore Club Consultant Bootcamp and unlock strategy, skills, systems, and bonuses for only ₹999.",
+      "Register for the C3 Crore Club Consultant Bootcamp and unlock strategy, skills, systems, and bonuses for only ₹1999.",
     images: ["/cover.webp"]
   }
 };

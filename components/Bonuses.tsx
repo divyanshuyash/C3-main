@@ -42,7 +42,7 @@ export function Bonuses() {
           <p className="section-label">Bonuses</p>
           <h2 className="mt-6 font-display uppercase tracking-[0.05em]">
             <span className="block text-[34px] leading-tight text-white md:text-[46px]">
-              ENROLL FOR ₹999
+              ENROLL FOR ₹1999
             </span>
             <span className="mt-1 block text-[42px] leading-[0.94] gradient-text md:mt-2 md:text-[64px]">
               GET ₹50,000+ IN BONUSES
@@ -120,7 +120,7 @@ export function Bonuses() {
             </span>
             <span>→</span>
             <span className="font-display text-[44px] uppercase tracking-[0.05em] text-orange md:text-[60px]">
-              Your Price: ₹999 Only
+              Your Price: ₹1999 Only
             </span>
           </div>
         </div>
