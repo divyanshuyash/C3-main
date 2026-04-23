@@ -1,8 +1,8 @@
 const tickerItems = [
-  "May 1-3, 2026",
+  "5-6-7 June, 2026",
   "3-Day Live Bootcamp",
   "₹50,000+ Bonuses",
-  "Only ₹1999",
+  "Only ₹999",
   "Limited Seats"
 ];
 

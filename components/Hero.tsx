@@ -226,7 +226,7 @@ export function Hero() {
                     <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-orange opacity-75" />
                     <span className="relative inline-flex h-2 w-2 rounded-full bg-orange" />
                   </span>
-                  3-Day Live Bootcamp · May 1-3, 2026
+                  3-Day Live Bootcamp · 5-6-7 June, 2026
                 </span>
               </motion.div>
 

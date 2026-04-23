@@ -10,7 +10,7 @@ import { registerHref } from "@/lib/register-link";
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const checklist = [
-  "3-Day Live Bootcamp (May 1, 2, 3 · 10 AM-2 PM)",
+  "3-Day Live Bootcamp (5-6-7 June · 10 AM-2 PM)",
   "Mind Marvels Lifetime Membership (₹10,000 value)",
   "1:1 Strategy Session with Shobhit",
   "Full Bootcamp Recordings",
@@ -64,7 +64,7 @@ export function Pricing() {
         <div className="mx-auto max-w-[720px] text-center">
           <p className="section-label">Pricing</p>
           <h2 className="mt-6 font-display text-[52px] uppercase leading-[0.92] tracking-[0.05em] text-white md:text-[70px]">
-            The smartest ₹1999 you can spend on your next identity shift.
+            The smartest ₹999 you can spend on your next identity shift.
           </h2>
         </div>
 
@@ -97,7 +97,7 @@ export function Pricing() {
                 }}
                 className="font-display text-[88px] uppercase leading-none tracking-[0.05em] text-orange md:text-[100px]"
               >
-                ₹1999
+                ₹999
               </motion.p>
             </div>
 
