@@ -11,37 +11,25 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 const dayCards = [
   {
     number: "01",
-    badge: "Strategy",
-    title: "CLARITY CREATES CROREPATIS",
+    badge: "Strategy & Skills",
+    title: "CLARITY CREATES INCOME",
     items: [
-      "Inner Game and Vision - Chanakya principles revival",
-      "Expansive Vision - Think bigger problems, bigger income",
-      "Consulting Ecosystem - Multiple client channels",
-      "Finding Your Niche - Most profitable, aligned, and scalable",
-      "Business Plan Template - Ready consulting blueprint",
-      "Design Plan Template - Structure offers and packages"
+      "Inner Game and Vision - Chanakya principles, think bigger problems",
+      "Consulting Ecosystem & Niche - Most profitable, aligned, and scalable",
+      "Business & Design Templates - Ready consulting blueprint & offers",
+      "Top 10 Wealth Skills - Communication, Authority, Content, Acquisition"
     ]
   },
   {
     number: "02",
-    badge: "Skills",
-    title: "EXECUTION CREATES INCOME",
-    items: [
-      "Top 10 Wealth Skills - Communication, Authority, Content, Acquisition",
-      "Video Creation Tactics - Visibility equals opportunity",
-      "Live Action Assignment - Create your first video and post publicly",
-      "Authority Building - Social proof from Day 1"
-    ]
-  },
-  {
-    number: "03",
-    badge: "Systems",
+    badge: "Execution & Systems",
     title: "SYSTEMS CREATE SCALE",
     items: [
+      "Video Creation & Action - Create your first video and post publicly",
+      "Authority Building - Build social proof from Day 1",
       "AI Systems in 10 Minutes - Automate, scale content, create faster",
-      "12 Sales Funnels - Multiple income streams, sell without pressure",
-      "Ripple Effect Vision - Build impact, influence, and a movement",
-      "Revenue Scaling - From linear to exponential income"
+      "12 Sales Funnels & Revenue Scaling - Multiple income streams",
+      "Ripple Effect Vision - Build impact, influence, and a movement"
     ]
   }
 ] as const;
@@ -79,13 +67,13 @@ export function Days() {
     <section id="days" ref={sectionRef} className="section-pad bg-bg">
       <div className="c3-container">
         <div className="max-w-[760px]">
-          <p className="section-label">The 3-Day Breakdown</p>
+          <p className="section-label">The 2-Day Breakdown</p>
           <h2 className="mt-6 font-display text-[48px] uppercase leading-[0.92] tracking-[0.05em] text-white md:text-[64px]">
             Walk through the consulting blueprint day by day.
           </h2>
         </div>
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-3">
+        <div className="mt-12 grid gap-6 lg:grid-cols-2">
           {dayCards.map((day) => (
             <DayCard key={day.number} day={day} />
           ))}
@@ -103,7 +91,7 @@ function DayCard({ day }: DayCardProps) {
   return (
     <article
       data-day-card
-      className="relative overflow-hidden rounded-[30px] border border-white/8 bg-bg p-8 shadow-[0_24px_70px_rgba(0,0,0,0.3)] lg:min-h-[620px]"
+      className="relative overflow-hidden h-full rounded-[30px] border border-white/8 bg-bg p-8 shadow-[0_24px_70px_rgba(0,0,0,0.3)]"
     >
       <span className="pointer-events-none absolute right-6 top-3 font-display text-[120px] uppercase leading-none text-orange/10">
         {day.number}

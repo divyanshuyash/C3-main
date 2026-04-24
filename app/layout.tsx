@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
   title: "C3 - Crore Club Consultant Bootcamp",
   description:
-    "3-day live bootcamp with Shobhit Singhal for professionals who want to move from corporate dependency to consulting independence.",
+    "2-day live bootcamp with Shobhit Singhal for professionals who want to move from corporate dependency to consulting independence.",
   icons: {
     icon: "/favicon.png"
   },

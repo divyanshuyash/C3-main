@@ -10,7 +10,7 @@ import { registerHref } from "@/lib/register-link";
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const checklist = [
-  "3-Day Live Bootcamp (5-6-7 June · 10 AM-2 PM)",
+  "2-Day Live Bootcamp (6th and 7th June · 10 AM-5 PM)",
   "Mind Marvels Lifetime Membership (₹10,000 value)",
   "1:1 Strategy Session with Shobhit",
   "Full Bootcamp Recordings",

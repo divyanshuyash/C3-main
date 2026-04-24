@@ -226,7 +226,7 @@ export function Hero() {
                     <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-orange opacity-75" />
                     <span className="relative inline-flex h-2 w-2 rounded-full bg-orange" />
                   </span>
-                  3-Day Live Bootcamp · 5-6-7 June, 2026
+                  2-Day Live Bootcamp · 6th and 7th June, 2026
                 </span>
               </motion.div>
 
@@ -266,7 +266,7 @@ export function Hero() {
                 className="mx-auto mt-5 max-w-[46ch] text-sm leading-relaxed text-white/55 md:mx-0 md:mt-6 md:text-base"
               >
                 Learn the exact consulting framework that 1000+ professionals have used
-                to build independent consulting businesses worth <span className="font-semibold text-white/80">₹1 Crore+</span> — in just 3 days.
+                to build independent consulting businesses worth <span className="font-semibold text-white/80">₹1 Crore+</span> — in just 2 days.
               </motion.p>
 
               {/* CTA row */}

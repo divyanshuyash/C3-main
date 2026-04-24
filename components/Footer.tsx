@@ -14,7 +14,7 @@ export function Footer() {
 
           <div className="space-y-2">
             <p className="text-sm uppercase tracking-[0.18em] text-white/65">
-              5-6-7 June · 2026 · 10 AM - 2 PM IST
+              6th and 7th June · 2026 · 10 AM - 5 PM IST
             </p>
             <p className="text-sm text-muted">
               © 2026 Crore Club Consultant Bootcamp. All rights reserved.

@@ -25,7 +25,7 @@ const bonuses = [
   {
     title: "FULL RECORDINGS + EXCLUSIVE EXTRA SESSIONS",
     items: [
-      "Complete 3-day recordings - rewatch anytime",
+      "Complete 2-day recordings - rewatch anytime",
       "Exclusive bonus sessions not available live",
       "Deep-dive trainings, advanced insights, and extra frameworks"
     ]
